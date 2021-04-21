@@ -24,7 +24,8 @@ def guess_age():
     print('Not long now...')
     print("Did I tell you that I'm a super computer with ifinite cores?")
     print('... Ah, finally got it!\n')
-    print("Your age is " + str(age) + "; that's a good time to start programming!\n")
+    print(("Your age is " + str(age) + "; that's a good time to start "
+           "programming!\n"))
 
 
 def count():
@@ -57,7 +58,8 @@ def test():
 
 
 def end():
-    print("\nIt has been nice chatting with you. I'm going to shut down now. Goodbye!")
+    print(("\nIt has been nice chatting with you. I'm going to shut down now."
+           " Goodbye!"))
     exit()
 
 
